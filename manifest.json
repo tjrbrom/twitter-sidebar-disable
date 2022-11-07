@@ -1,0 +1,22 @@
+{
+    "name": "disable twitter sidebar",
+    "version": "1.0.0",
+    "description": "well duh",
+    "manifest_version": 2,
+    
+	"permissions": [
+        "tabs",
+        "notifications",
+        "http://*/",
+        "https://*/"
+    ],
+	
+	"browser_action": {
+        "default_title": "disable twitter sidebar"
+    },
+	
+	"background": {
+        "scripts": ["scripts/background.js"]
+    }
+
+}
